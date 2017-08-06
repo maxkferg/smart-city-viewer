@@ -1,0 +1,50 @@
+/* Base Application Styles */
+body {
+  color: #ff0;
+  background: #fefefe;
+}
+
+input:focus {
+  outline:none;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 0 auto 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.container {
+  margin: 10px auto 0;
+  width: 1280px;
+}
+
+.wrapper {
+  margin: 10px auto 10px auto;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.konvajs-content, canvas {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
